@@ -1,6 +1,7 @@
 # Table of contents
 
 * [intermine.org](README.md)
+* [Test page](test-page.md)
 * [docs](docs/README.md)
   * [database](docs/database/README.md)
     * [Database](docs/database/index.md)
