@@ -2,15 +2,19 @@
 
 ## Change 1
 
-This page is to check mergeability of gitbook to github.
+This pag ?/\#\#\# mergeability of gitbook to github.
 
 ## Change 2
 
-Trying this again. \#\#\#\#\#\#\#\#\#
+Tryin??g this again. 
 
 ## Change 3
 
-Let's see
+Let's s\\ee
+
+## Change 4
+
+Delete a bunch of stuff and add things to other sections.
 
 
 
