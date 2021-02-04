@@ -1,35 +1,33 @@
-# intermine.org
+# Website
 
-Documentation for the [InterMine](http://intermine.org) project.
+This website is built using [Docusaurus 2](https://v2.docusaurus.io/), a modern static website generator.
 
-## Documentation
+## Installation
 
-The HTML documentation is generated from [RST](http://sphinx-doc.org/rest.html) source, using a Python static site generator called [Sphinx](http://sphinx-doc.org). RST stands for **reStructuredText** \(see [reference](http://docutils.sourceforge.net/docs/user/rst/quickref.html)\). When you push to the [GitHub repo](https://github.com/intermine/intermine.org) for these docs, this triggers a new build of the [documentation site](https://intermine.readthedocs.org), where the changes will be visible within a few minutes. This process is managed by [ReadTheDocs](https://readthedocs.org/), an online service for maintaining documentation.
-
-## Building locally
-
-You should build locally before you push, to make sure your changes are correct. You will need the Sphinx environment for this. **Make** and **Python 2.7** are required, and we recommend using \[Conda\]\[conda\] to manage dependencies:
-
-Setting up:
-
-```bash
-cd docs
-conda create -n im-docs python=2.7
-conda activate im-docs
-pip install -r requirements.txt
-conda install sphinx
+```console
+yarn install
 ```
 
-Building the docs:
+## Local Development
 
-```bash
-# In the docs directory
-make html
+```console
+yarn start
 ```
 
-## Theming
+This command starts a local development server and open up a browser window. Most changes are reflected live without having to restart the server.
 
-The source for the Sphinx documentation theme can be found in the [intermine/design-materials](https://github.com/intermine/design-materials/tree/master/websites/intermine.org/) repo.
+## Build
 
-\[conda\]: [https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html)
+```console
+yarn build
+```
 
+This command generates static content into the `build` directory and can be served using any static contents hosting service.
+
+## Deployment
+
+```console
+GIT_USER=<Your GitHub username> USE_SSH=true yarn deploy
+```
+
+If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
