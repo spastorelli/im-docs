@@ -16,7 +16,7 @@ Let us suppose we want to have a default way of displaying bio entities like gen
 </class>
 ```
 
-![image](img/Screenshot4%20%281%29.jpg)
+![image](img/Screenshot4.jpg)
 
 We see that the titles are defined within the headerconfig block. Then we have the following fields:
 
