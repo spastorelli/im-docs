@@ -217,7 +217,7 @@ Modern browsers will apply alternating background and border on odd row columns,
 
 #### Basic Table \(Generic\)
 
-![](img/tiny-table%20%281%29.png)
+![](img/tiny-table.png)
 
 ```markup
 <div class="basic-table">
