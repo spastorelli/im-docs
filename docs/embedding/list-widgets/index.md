@@ -42,7 +42,7 @@ Please read the documentation carefully and check your config file for typos. Mo
 
 Table widgets display objects and the counts of related objects in your list.
 
-![](../img/table.png)
+![](img/table.png)
 
 An example table widget of Orthologues in FlyMine.
 
@@ -69,7 +69,7 @@ The following are optional attributes:
 
 Graph widgets display datasets in graphical format.
 
-![An example chart widget of BDGP Expression Patterns in FlyMine.](../img/chart.png)
+![An example chart widget of BDGP Expression Patterns in FlyMine.](img/chart.png)
 
 
 
@@ -120,7 +120,7 @@ The graphs use [Google Visualitation API](https://developers.google.com/chart/in
 
 Enrichment widgets calculate p-values representing the probability annotation occurred by chance. See [List enrichment widgets statistics](enrichment-widgets.md) for more information on how the p-value is calculated.
 
-![An example enrichment widget of Gene Ontology in FlyMine.](../img/enrichment.png)
+![An example enrichment widget of Gene Ontology in FlyMine.](img/enrichment.png)
 
 | attribute | purpose | example |
 | :--- | :--- | :--- |
