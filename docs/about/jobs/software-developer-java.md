@@ -1,4 +1,6 @@
-# Research Software Engineer
+---
+title: Research Software Engineer
+---
 
 ![Ability to punt desirable.](cam_bridge.jpg)
 
