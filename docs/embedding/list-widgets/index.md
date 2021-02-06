@@ -1,8 +1,6 @@
-# index
-
-::: {.index} embedding, javascript embedding, widgets, list widgets, list analysis page widgets :::
-
-## List Widgets
+---
+title: List Widgets
+---
 
 ::: {.toctree maxdepth="2
 
