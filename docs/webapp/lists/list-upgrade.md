@@ -117,4 +117,4 @@ There are four cases:
 
 The following diagram shows the possible states. With the green, we identify the states that don't need a list upgrade, with the red those need a list upgrade.
 
-![](../../../.gitbook/assets/SerialNumber.png)
+![](../../imgs/SerialNumber.png)
