@@ -1,4 +1,6 @@
-# List upgrade
+---
+title: List upgrade
+---
 
 When you update an InterMine production database, user lists have to be updated as well. This document aims to describe this process.
 

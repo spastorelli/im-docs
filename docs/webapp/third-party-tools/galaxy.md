@@ -1,4 +1,6 @@
-# Galaxy
+---
+title: Galaxy
+---
 
 ## Enable Galaxy export
 

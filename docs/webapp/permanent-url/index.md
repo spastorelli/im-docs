@@ -1,4 +1,6 @@
-# Permanent URLs
+---
+title: Permanent URLs
+---
 
 InterMine generates stable and unique URLs to identify the report pages for biological entities.
 

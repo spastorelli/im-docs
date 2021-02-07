@@ -1,4 +1,6 @@
-# Home page
+---
+title: Home page
+---
 
 {% hint style="info" %}
 This text describes how to customize the homepage of your mine.

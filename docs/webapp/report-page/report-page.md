@@ -1,4 +1,6 @@
-# Report Page
+---
+title: Report Page
+---
 
 ### Object Title\(s\)
 

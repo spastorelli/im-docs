@@ -1,4 +1,6 @@
-# Report Displayers Examples
+---
+title: Report Displayers Examples
+---
 
 Report displayers you can use in your own Mine and some examples created for specific data types in modMine, FlyMine and metabolicMine.
 

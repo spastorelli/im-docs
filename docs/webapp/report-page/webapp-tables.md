@@ -1,4 +1,6 @@
-# Webapp Tables CSS & HTML
+---
+title: Webapp Tables CSS & HTML
+---
 
 ![](img/intermine-theme-colors.png)
 
