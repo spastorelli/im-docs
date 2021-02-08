@@ -190,6 +190,7 @@ module.exports = {
     			 'about/contact-us',
     			 'about/privacy-policy'],
 
-    'InterMine Video Tutorial Collection': ['help/index']
+    'InterMine Video Tutorial Collection': ['help/index'],
+    Style: ['doc1']
   },
 };
