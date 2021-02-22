@@ -90,7 +90,7 @@ And accepts the following arguments in its constructor:
 
 * `data_dir => "dirname"` the name of a directory to put data in, preferably in a sub-directory.\* `logger => Log::Handler` A logger to use to log error and debug messages. Exceptions may be thrown by a source at any time. They will be caught and logged. It is the source's responsibility to clean up after itself however.
 
-A template for creating a source is available in the form of an abstract class all sources are expected to inherit from. This class, `DataDownloader::Source::ABC` makes it simple to add straightforward source downloaders, and provides helpers to make it convenient to add complex ones.
+A template for creating a source is available in the form of an abstract class all Sources are expected to inherit from. This class, `DataDownloader::Source::ABC` makes it simple to add straightforward source downloaders, and provides helpers to make it convenient to add complex ones.
 
 A minimal source can be seen in the form of `bio/scripts/DataDownloader/lib/DataDownloader/Source/FlyAnatomyOntology.pm`:
 
@@ -133,3 +133,4 @@ Each source is a hash-reference with the following keys:
 Further keys that can be defined include:
 
 * 'POSTPROCESSOR': A code-reference which will called as a method and passed the downloaded file, and the location where it should end up.
+
