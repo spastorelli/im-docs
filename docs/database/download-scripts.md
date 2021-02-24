@@ -4,7 +4,7 @@ The DataDownloader system uses a plugin architecture to make it more straightfor
 
 ## Location
 
-The system is a package located in our scripts repo here: [https://github.com/intermine/intermine-scripts/tree/master/bio/DataDownloader](https://github.com/intermine/intermine-scripts/tree/master/bio/DataDownloader)
+The system is a package located in our script repo here: [https://github.com/intermine/intermine-scripts/tree/master/bio/DataDownloader](https://github.com/intermine/intermine-scripts/tree/master/bio/DataDownloader)
 
 The package contains:
 
