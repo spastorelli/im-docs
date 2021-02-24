@@ -29,3 +29,4 @@ This parameter causes the data parser to only load ontology terms with that pref
 Optional parameter: &lt;property name="licence" value="[https://creativecommons.org/licenses/by/4.0/%22/](https://creativecommons.org/licenses/by/4.0/%22/)&gt;
 
 This parameter will update the DataSet.licence field with the value you specify.
+

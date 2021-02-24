@@ -1,12 +1,12 @@
 # List Widgets Questions & Answers
 
-### Source files
+## Source files
 
 Source files for the [List widgets client](https://github.com/intermine/intermine-apps-c/tree/master/list-widgets).
 
-### Using a temporary list on the fly
+## Using a temporary list on the fly
 
-#### Requirements
+### Requirements
 
 1. InterMine Generic WebService Client Library from GitHub or InterMine
 
@@ -22,7 +22,7 @@ Source files for the [List widgets client](https://github.com/intermine/intermin
 
    case of within mine embedding that can be seen for example here.
 
-#### Code
+### Code
 
 First require the JavaScript libraries needed to run the example. You probably have your own version of a Twitter Bootstrap compatible CSS style included on the page already.
 
@@ -96,7 +96,7 @@ widgets.chart('flyfish', name, '#widget');
 
 The only problem with this approach is that if we make this sort of call multiple times, we will fail on the second and subsequent occasions as we will get a WebService exception telling us that the 'temporary' list name is taken. _Thus, inspect the code of the example to see how to make a call to the service to delete/reuse the list if it exists_.
 
-### Defining custom actions on widget events
+## Defining custom actions on widget events
 
 In a mine context, List Widgets are configured automatically to e.g. display a [Query Results](../../webapp/query-results/index.md) when clicking on "Create a List".
 
@@ -145,7 +145,7 @@ var options = {
 Widgets.enrichment('pathway_enrichment', 'myList', '#widget', options);
 ```
 
-### Showing a Results Table
+## Showing a Results Table
 
 The example below assumes that you have resolved all [Query Results](../../webapp/query-results/index.md) dependencies and have a PathQuery in JSON/JavaScript format that you want to display in a `#container`:
 
@@ -161,3 +161,4 @@ view.$el.appendTo("#container");
 // Show it.
 view.render();
 ```
+

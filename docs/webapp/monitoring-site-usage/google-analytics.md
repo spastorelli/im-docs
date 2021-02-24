@@ -15,3 +15,4 @@ google.analytics.message=I accept cookies from this site
 ```
 
 If no key - message is provided, no message is shown and cookies are accepted by default.
+

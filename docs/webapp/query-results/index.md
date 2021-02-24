@@ -174,3 +174,4 @@ intermine.scope('intermine.options.ExternalLinkIcons',
 All links in table cells with the prefix [`http://myhostname`](http://myhostname]{.title-ref}) will use the given image as a logo.
 
 This requires that `intermine.options.IndicateOffHostLinks` is set to true.
+

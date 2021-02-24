@@ -109,3 +109,4 @@ flymine-bio-sources $ ./gradlew rnai:install
 ```
 
 The `install` task will place the JAR in the Maven directory \"~/.m2/repository\".
+

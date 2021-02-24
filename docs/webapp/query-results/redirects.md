@@ -2,7 +2,7 @@
 
 You can add a property to WebProperties to have links in results forward the user to a URL instead of the InterMine report page.
 
-### config
+## config
 
 Add the following to your WebProperties file:
 
@@ -36,7 +36,7 @@ full http address, eg. [http://www.google.co.uk/\#q=monkey](http://www.google.co
 
 All columns in the results for the configured class will be links to the external URL.
 
-### examples
+## examples
 
 In results pages, all dmel genes will link to FlyBase with Gene.primaryIdentifier instead of the Mine report page:
 
@@ -71,3 +71,4 @@ externallink.foo.ProbeSet.*.primaryIdentifier.url=http://www.google.com?q=<<attr
 ```
 
 Next to the value in the column will be a small icon indicating an external link
+

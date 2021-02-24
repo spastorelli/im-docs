@@ -67,3 +67,4 @@ Optional: OFF - optional and OFF by default
 To have templates appear on the templates page, create a template as a SuperUser and tag the template with the "&lt;im:public&gt;" tag.
 
 The templates are sorted by most popular first. If the user is logged in the user's most popular templates are shown first.
+

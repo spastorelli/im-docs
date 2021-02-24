@@ -9,3 +9,4 @@ add to `webapp/src/main/webapp/WEB-INF/web.properties`
 ```text
 services.defaults.query = <query model="genomic" view="Gene.secondaryIdentifier Gene.symbol Gene.primaryIdentifier Gene.organism.name" sortOrder="Gene.secondaryIdentifier ASC" ><constraint path="Gene.organism.name" op="=" value="Drosophila melanogaster" code="A" /></query>
 ```
+

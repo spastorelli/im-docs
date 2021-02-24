@@ -18,3 +18,4 @@ webapp.path=intermine-test
 ```
 
 If you do not wish to allow Open-ID accounts, set the property "openid.allowed=false" in any of the property files that end up in the WEB\_PROPERTIES map.
+

@@ -28,7 +28,7 @@ in the index.html file of your JBrowse installation.
 
 ## Add JBrowse to InterMine
 
-Add JBrowse to your report pages by adding this entry to the `webconfig-model.xml` file of your mine (see FlyMine [example](https://github.com/intermine/flymine/blob/master/webapp/src/main/webapp/WEB-INF/webconfig-model.xml)):
+Add JBrowse to your report pages by adding this entry to the `webconfig-model.xml` file of your mine \(see FlyMine [example](https://github.com/intermine/flymine/blob/master/webapp/src/main/webapp/WEB-INF/webconfig-model.xml)\):
 
 ```markup
 <reportdisplayer javaClass="org.intermine.bio.web.displayer.JBrowseDisplayer"
@@ -89,3 +89,4 @@ org.intermine.webservice.server.jbrowse.genomic.track.Promoter.style.color=blue
 ```
 
 For the full list of properties, please see the canvas section of the [JBrowse Configuration Guide](https://github.com/GMOD/jbrowse/wiki/JBrowse_Configuration_Guide/).
+

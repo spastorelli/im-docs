@@ -68,3 +68,4 @@ after_success:
 ```
 
 Simply change the value of "master" to the branch you wish to use.
+

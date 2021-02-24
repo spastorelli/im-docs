@@ -2,7 +2,7 @@
 
 Your InterMine data parser has a version.
 
-### What is the version for my data parser?
+## What is the version for my data parser?
 
 The version for your mine's custom source is the `version` value in the `build.gradle` file in your sources directory. When you install your source, the JAR of the correct version will be created.
 
@@ -16,7 +16,7 @@ See FlyMine's [build.gradle](https://github.com/intermine/flymine-bio-sources/bl
 
 We recommend you use [semantic versioning](https://semver.org/).
 
-### How do I specify which version of my data parser to use in my build?
+## How do I specify which version of my data parser to use in my build?
 
 To use a specific version, add a parameter to your project XML entry.
 
@@ -30,7 +30,7 @@ You will get an error if it can't find a JAR with this version. Note that this i
 
 If no version is provided, the default InterMine version is used. For InterMine's bio sources, a global variable is set in the `gradle.properties` file in your mine.
 
-### I got an error. Maven can't find my JAR
+## I got an error. Maven can't find my JAR
 
 Here is an example error:
 
@@ -45,7 +45,7 @@ Maven is looking in your repo and Maven central for your JAR as version 4.0.0. Y
 
 See the above sections for how to do this.
 
-### I got an error. Why is Maven looking in Maven Central for my JAR?
+## I got an error. Why is Maven looking in Maven Central for my JAR?
 
 Here is an error when Maven can't find your JAR:
 

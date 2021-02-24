@@ -4,7 +4,7 @@ Report displayers you can use in your own Mine and some examples created for spe
 
 The following displayers can all be used for data loaded by standard InterMine parsers. To see how to configure them check out FlyMine's `webconfig-model.xml`.
 
-### SequenceFeature summary
+## SequenceFeature summary
 
 Applicable for any SequenceFeature. It shows length, sequence export, chromosome location, cyto location and SO term \(where present\).
 
@@ -18,7 +18,7 @@ Applicable for any SequenceFeature. It shows length, sequence export, chromosome
 
 ![A Sequence feature displayer in metabolicMine.](../../../.gitbook/assets/sequence_feature_displayer.png)
 
-### Protein sequence
+## Protein sequence
 
 Applicable for Protein. It shows length, sequence export.
 
@@ -32,7 +32,7 @@ Applicable for Protein. It shows length, sequence export.
 
 ![A Protein sequence displayer in FlyMine.](../../../.gitbook/assets/protein_sequence_displayer.png)
 
-### GBrowse
+## GBrowse
 
 Shows an inline image from a configured GBrowse instance.
 
@@ -53,7 +53,7 @@ gbrowse_image.prefix=http://www.flymine.org/cgi-bin/gbrowse_img
 
 ![A Genome browser view in FlyMine.](../../../.gitbook/assets/gbrowse_displayer.png)
 
-### Homologues
+## Homologues
 
 Shows a table of organism and homologous genes of homologues per organism.
 
@@ -70,7 +70,7 @@ Shows a table of organism and homologous genes of homologues per organism.
 
 Note that FlyMine includes a specific displayer to show the twelve Drosophila species as a phylogenetic tree.
 
-### Gene structure
+## Gene structure
 
 Displays transcripts, exons, introns, UTRs and CDSs if present in the model and for the particular organism. It can be added to report pages for any of these feature types and will find the parent gene and show all transcripts, highlighting the feature of the actual report page.
 
@@ -84,7 +84,7 @@ Displays transcripts, exons, introns, UTRs and CDSs if present in the model and 
 
 ![A Gene structure displayer in FlyMine.](../../../.gitbook/assets/gene_structure_displayer.png)
 
-### Gene Ontology
+## Gene Ontology
 
 Simple display of GO terms and evidence codes for a gene, grouped by branch in the ontology. It groups by the three main ontologies \(function, process and component\), so you may need to run the GO source.
 
@@ -98,7 +98,7 @@ Simple display of GO terms and evidence codes for a gene, grouped by branch in t
 
 ![A Gene ontology displayer in modMine.](../../../.gitbook/assets/go_displayer.png)
 
-### UniProt comments
+## UniProt comments
 
 A clear view of curated comments from UniProt \(SwissProt\) applied to a protein, or for a gene will show comments from all proteins of the gene.
 
@@ -112,7 +112,7 @@ A clear view of curated comments from UniProt \(SwissProt\) applied to a protein
 
 ![A Uniprot curated comments displayer in metabolicMine.](../../../.gitbook/assets/uniprot_comments_displayer.png)
 
-### Interaction network
+## Interaction network
 
 Uses the [Cytoscape Web plugin](http://cytoscapeweb.cytoscape.org/) to display physical and genetics interactions. The interaction displayer links to report pages, allows creation of a gene list of the whole network and can show tabular interaction data. Read NetworkDisplayer for details.
 
@@ -126,7 +126,7 @@ Uses the [Cytoscape Web plugin](http://cytoscapeweb.cytoscape.org/) to display p
 
 ![An Interactions displayer in FlyMine.](../../../.gitbook/assets/interactions_displayer.png)
 
-### Overlapping features
+## Overlapping features
 
 A summary view of features that overlap the chromosome location of the reported feature. If the gene structure displayer is also used, it will exclude any features that are part of the same gene model i.e. it won't report that a gene overlaps it's own exons.
 
@@ -140,7 +140,7 @@ A summary view of features that overlap the chromosome location of the reported 
 
 ![An Overlapping features displayer in modMine.](../../../.gitbook/assets/overlapping_features_displayer.png)
 
-### Complexes - Protein interactions
+## Complexes - Protein interactions
 
 Viewer displaying complex interactions. Data must be loaded from IntAct. Original Source: [http://interactionviewer.org/](http://interactionviewer.org/).
 
@@ -154,7 +154,7 @@ Viewer displaying complex interactions. Data must be loaded from IntAct. Origina
 
 ![A Complex interaction displayer in HumanMine.](../../../.gitbook/assets/complex-viewer.png)
 
-### Specific Displayers
+## Specific Displayers
 
 There are some displayers created for specific data sets in FlyMine, metabolicMine or modMine that may not be re-usable in other Mines but could be adapted or provide inspiration.
 
@@ -165,3 +165,4 @@ There are some displayers created for specific data sets in FlyMine, metabolicMi
 ![A phylogenetic tree of Drosophila species displayed using the \[jsPhyloSVG\]\(http://www.jsphylosvg.com/\) JavaScript library in FlyMine.](../../../.gitbook/assets/drosophila_homology_displayer.png)
 
 ![Heatmap of fly gene expression in modMine, this makes use of \[canvasXpress\]\(http://www.canvasxpress.org/\) JavaScript library.](../../../.gitbook/assets/modMine-heatmap.png)
+

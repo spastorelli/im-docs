@@ -59,7 +59,7 @@ Finally, add your JSP file to the `MINE_NAME/webapp/src/main/webapp` directory a
 This search box queries the search index created in the postprocess `create-search-index`. To change which placeholder identifiers will appear in the box, edit the `quickSearch.identifiers` property in [Database and Web application](../properties/intermine-properties.md).
 
 {% hint style="info" %}
-See also [Keyword Search](../keyword-search/index.md) for details on how to configure the search index. 
+See also [Keyword Search](../keyword-search/index.md) for details on how to configure the search index.
 {% endhint %}
 
 ### Footer
@@ -126,3 +126,4 @@ You need to change this property to the name of the theme you want to use \(the 
 ### Developing your own theme
 
 With CSS knowledge and open source image software such as [Gimp](http://www.gimp.org) or [Inkscape](http://www.inkscape.org) you can develop your own theme. Each theme directory contains a `theme.css` file, which is broken down in annotated sections, and image files. The image files are required for displaying menus, headers and backgrounds and can be modified with image software to match your colour scheme. Create a new directory under `webapp/src/main/webapp/themes`, copy the contents of another theme directory into it and start editing.
+

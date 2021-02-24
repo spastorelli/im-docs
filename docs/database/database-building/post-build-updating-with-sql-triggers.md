@@ -77,3 +77,4 @@ Please note that there are a number of database changes that the triggers CANNOT
 2. The tracker table is not updated. If you do an integration step after manual operations and the integrator is trying to update a column value that you inserted manually, the integration step will fail.
 3. The clob table cannot be manipulated. Again, this may also be changed in the future.
 4. If the id field in InterMineObject has exceeded 2^31 and gone negative, the sequence im\_post\_build\_insert\_serial cannot be used in INSERT operations without \(probably\) colliding with another object. The value of the serial must be set manually in this case.
+

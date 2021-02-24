@@ -22,9 +22,8 @@ To solve this problem, each homologue source uses the NCBI identifier resolver. 
 Make sure permissions on the file are correct so the build process can read this file.
 {% endhint %}
 
-      3. Download the identifier file for humans -[http://www.flymine.org/download/idresolver/humangene](http://www.flymine.org/download/idresolver/humangene) to another directory, eg. /DATA\_DIR/human/identifiers
-
-      4. Create a sub directory `/DATA_DIR/idresolver/` as file root path and add symbolic links to the two files.
+1. Download the identifier file for humans -[http://www.flymine.org/download/idresolver/humangene](http://www.flymine.org/download/idresolver/humangene) to another directory, eg. /DATA\_DIR/human/identifiers
+2. Create a sub directory `/DATA_DIR/idresolver/` as file root path and add symbolic links to the two files.
 
 ```bash
 $ cd /DATA_DIR/idresolver/
@@ -32,7 +31,7 @@ $ ln -s /DATA_DIR/ncbi/gene_info entrez
 $ ln -s /DATA_DIR/human/identifiers humangene
 ```
 
-      5. Add the root path to the file in `~/.intermine/MINE.properties`
+1. Add the root path to the file in `~/.intermine/MINE.properties`
 
 ```text
 resolver.file.rootpath=/DATA_DIR/idresolver/
@@ -55,3 +54,4 @@ We use WormMart but are happy to hear of a better source for worm identifiers.
 Here are the project XML entries used by FlyMine:
 
 [FlyMine Project XML](https://github.com/intermine/flymine/blob/master/project.xml)
+

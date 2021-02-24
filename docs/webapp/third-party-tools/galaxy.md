@@ -72,7 +72,7 @@ to Galaxy from the 'EXPORT' menu in the results page.
 
 ![](../../../.gitbook/assets/sendtogalaxy2.png)
 
-## Export Identifiers from Galaxy to InterMine 
+## Export Identifiers from Galaxy to InterMine
 
 Use the new **InterMine interchange dataset** to generate an intermediate file \(tsv formatted\)
 
@@ -81,3 +81,4 @@ Use the new **InterMine interchange dataset** to generate an intermediate file \
 and then click on _View InterMine at Registry_ to be redirected to the InterMine registry in order to chose the InterMine instance to export the identifiers to.
 
 ![](../../../.gitbook/assets/sendtoim2.png)
+

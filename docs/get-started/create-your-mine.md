@@ -42,7 +42,7 @@ Make an intermine directory in your home directory.
 Copy the properties file you created in the tutorial.
 
 ```text
-~/.intermine $ wget https://github.com/intermine/biotestmine/blob/master/data/biotestmine.properties 
+~/.intermine $ wget https://github.com/intermine/biotestmine/blob/master/data/biotestmine.properties
 ```
 
 Rename the file to match your Mine.
@@ -142,7 +142,7 @@ Your build \(depending on your sources\) will take a few minutes to run. Once th
 # deploy your webapp to tomcat
 ~/git/tigermine $ ./gradlew cargoDeployRemote 
 # if you have already deployed once, you will want to run this command instead:
-~/git/tigermine $ ./gradlew cargoRedeployRemote 
+~/git/tigermine $ ./gradlew cargoRedeployRemote
 ```
 
 See [Gradle - Quick Start](../system-requirements/software/gradle/index.md) for more on Gradle.

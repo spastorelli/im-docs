@@ -76,3 +76,4 @@ The default valid delimiters are comma, space, tab or new line. You can change t
 **matchOnFirst**
 
 Set this value in the bag-queries.xml file. Default value is TRUE. If false, all queries will always be run.
+

@@ -1,6 +1,6 @@
 # Report Page
 
-### Object Title\(s\)
+## Object Title\(s\)
 
 One can edit the appearance of object title\(s\) through the `webconfig-model.xml` file \(See [Text and messages](../properties/model-properties.md)\).
 
@@ -40,7 +40,7 @@ this is where we define sub titles. Again we can use the vertical bar to define 
 Classes of objects _inherit_ from their parents, thus unless we provide a different configuration for a, say, Protein title, the formatting from BioEntity will be applied. Fields resolved in the title\(s\) will be removed from the summary below it.
 {% endhint %}
 
-### Custom Header Link
+## Custom Header Link
 
 One can have a custom link in the header of the page through the `webconfig-model.xml` file.
 
@@ -75,7 +75,7 @@ defines a link text that will appear \(next to an image if provided\). The link 
 The order the fields appear in your webconfig-model is the order in which they will appear on the report page \(left to right\).
 {% endhint %}
 
-### References & Collections
+## References & Collections
 
 Each object has a number of fields configured in the model, like `length` or `proteins` for Gene. The former is a reference to a single value or an object while the latter is a list of values/objects. These then appear on the report page as References and Collections.
 
@@ -99,7 +99,7 @@ If `use.localstorage` is `true`, and [localStorage](http://diveintohtml5.info/st
 use.localstorage = true
 ```
 
-### Inline Lists
+## Inline Lists
 
 Inline lists are lists of values in one column of a report page table, displayed in one line. Take ''dataSets'' on a Gene object as follows:
 
@@ -137,11 +137,11 @@ by specifying this Boolean attribute we can create links from the list to the in
 
 If we have not set an inline list to appear in the header section of the page, the list will, by default appear in the category "Other" on the report page. If we login to the system we can then \(through the report page tagging interface that is revealed to us\) tag the list to appear in a specific section.
 
-### Custom Displayers
+## Custom Displayers
 
 See [Report Displayers](report-displayers.md) for details on how to create displayers for the report page.
 
-### Templates
+## Templates
 
 Tag template with the `im:report` tag. See [Website Admin](../admin/index.md).
 
@@ -159,12 +159,13 @@ As with collections \(see above\), if `use.localstorage` is enabled and availabl
 The underlying query that populates a template is executed as the template is expanded. Setting `web.templates.expandonload` to `true` can cause a significant increase in a report page's load time, particularly if there are more than a handful of templates.
 {% endhint %}
 
-### External Links
+## External Links
 
-See [Features](../properties/web-properties.md#external-links) 
+See [Features](../properties/web-properties.md#external-links)
 
-### Data
+## Data
 
 See [Data and Widget Configuration](../properties/webconfig-model.md) for details on how to change the names of class and fields.
 
 You can also hide collections by tagging them with the `im:hidden` tag.
+

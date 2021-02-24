@@ -81,3 +81,4 @@ AlleleClass_Allele                                release-beta:    2132, release
 1. '''In Both: Diff &gt;= 10%''' - templates run in both mines and result counts returned were very different.
 2. '''Only in''' - template was found in one mine and not the other.
 3. '''In Both: Diff &lt; 10%''' - template run in both mines and results returned were different. It's probably safe to assume these are okay.
+

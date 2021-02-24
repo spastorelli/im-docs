@@ -21,7 +21,7 @@ BlueGenes uses the following parameters defined in the `~/.intermine/$MINE.prope
 | purpose | parameters | example |
 | :--- | :--- | :--- |
 | location of JavaScript tools | bluegenes.toolLocation | /intermine/tools/node\_modules/ |
-| base URL for requests to the InterMine instance | webapp.baseurl | http://www.flymine.org |
+| base URL for requests to the InterMine instance | webapp.baseurl | [http://www.flymine.org](http://www.flymine.org) |
 | path appended to the base URL | webapp.path | flymine |
 | name of your InterMine instance as it will be displayed in BlueGenes | project.title | BioTestMine |
 

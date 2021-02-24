@@ -14,7 +14,7 @@ Appears on these pages:
 * List analysis page
 * Genomic Region Search results page
 
-### Create a custom exporter
+## Create a custom exporter
 
 You can add additional export options to your InterMine by creating a custom exporter.
 
@@ -41,7 +41,7 @@ You can add additional export options to your InterMine by creating a custom exp
    <form-bean name="bedExportForm" type="org.intermine.bio.web.struts.BEDExportForm"/>
    ```
 
-### Customisation
+## Customisation
 
 By default, SequenceFeature and Protein can be exported in FASTA format
 
@@ -57,3 +57,4 @@ exporter.sequence.description=Export in FASTA format
 exporter.gff3.description=Export in GFF3 format
 exporter.bed.description=Export in BED format
 ```
+

@@ -60,3 +60,4 @@ intermine_value |       name        | itemid
 -----------------+-------------------+---------
 LS2329          | primaryIdentifier | 1380031
 ```
+

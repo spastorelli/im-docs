@@ -57,3 +57,4 @@ See [FlyMine](http://www.flymine.org) for more information about these datasets.
 * protein-atlas
 
 See [HumanMine](http://www.humanmine.org) for more information about these datasets. Look at [HumanMine's project.xml](https://github.com/intermine/humanmine/blob/master/project.xml) for examples on how to use these sources.
+

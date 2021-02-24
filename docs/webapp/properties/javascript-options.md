@@ -29,3 +29,4 @@ In one of your properties files \(ideally your model web properties file\), add 
 ```text
 head.js.all.MY_JS_OPTIONS = my-mine-options.js
 ```
+

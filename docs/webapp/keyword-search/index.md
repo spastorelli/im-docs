@@ -116,7 +116,7 @@ In its default configuration, Solr will not match partial search terms. For exam
 <field name="gene_secondaryidentifier" type="text_ngram" indexed="true" stored="true"/>
 ```
 
-2. REMOVE the gene\_primaryidentifier and gene\_secondaryidentifier field definitions from the earlier part of the file. They look like this:
+1. REMOVE the gene\_primaryidentifier and gene\_secondaryidentifier field definitions from the earlier part of the file. They look like this:
 
 ```markup
 <field name="gene_primaryidentifier" type="analyzed_string" multiValued="true" indexed="true" required="false" stored="false"/>
@@ -125,16 +125,17 @@ In its default configuration, Solr will not match partial search terms. For exam
 
 OR, simply UPDATE the existing records, replacing the parameters with: type="text\_ngram" indexed="true" stored="true".
 
-3. RESTART Solr to load the new config, e.g. under System V: :
+1. RESTART Solr to load the new config, e.g. under System V: :
 
 ```text
 $ systemctl restart solr
 ```
 
-4. REBUILD the search index using the Solr-related postprocesses:
+1. REBUILD the search index using the Solr-related postprocesses:
 
 ```text
 ./gradlew postprocess -Pprocess=create-search-index
 ```
 
 Your keyword search will now return results on partial matches for the attributes that you configured in Solr \(Gene.primaryIdentifier and Gene.secondaryIdentifier in this example\).
+

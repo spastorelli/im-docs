@@ -150,3 +150,4 @@ You can also run IQL queries directly in the console:
 ```bash
 ~/git/flymine $ ./gradlew runIQLQuery -Pquery='some IQL'
 ```
+

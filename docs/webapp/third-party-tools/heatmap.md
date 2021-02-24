@@ -66,8 +66,9 @@ In modMine we have two separate heatmaps, one for cell line and one for developm
 
 [heatMap.jsp](https://github.com/modENCODE-DCC/modmine/blob/master/modmine/webapp/resources/webapp/model/heatMap.jsp) displays the heatmaps. canvasXpress object takes the expression JSON string and other parameters to create the heatmaps. jQuery is used to adjust page layout.
 
-##Alternatives
+## Alternatives
 
-A more up to date way of creating widget like heatmaps takes advantage of the InterMine webservices framework to query and generate JSON strings and embed the heatmap on any web page. Please check some examples of the tecnique  [here](http://github.com/intermine/intermine-embedding-examples)
+A more up to date way of creating widget like heatmaps takes advantage of the InterMine webservices framework to query and generate JSON strings and embed the heatmap on any web page. Please check some examples of the tecnique [here](http://github.com/intermine/intermine-embedding-examples)
 
 An alternative, and more general library is [D3.js](http://d3js.org/), an example of heatmap can be found [here](https://observablehq.com/@mbostock/electric-usage-2019). [ThaleMine](https://bar.utoronto.ca/thalemine) used to display a couple of such D3 implementations, and the code is still available [here](https://github.com/intermine/CDN/blob/master/js/intermine/expression/1.0.3/expression.js).
+

@@ -2,7 +2,7 @@
 
 This tutorial describes how to add a new page to your InterMine webapp.
 
-### Struts config
+## Struts config
 
 Add your new page to your struts config located in your MINE\_NAME/webapp directory.
 
@@ -35,7 +35,7 @@ pageName
 
 must match with the values set in `model.properties`
 
-### model.properties
+## model.properties
 
 Update your `model.properties` file to set which tab to use for this JSP.
 
@@ -46,7 +46,7 @@ dataSummary.tab = dataCategories
 
 To create a new tab, follow the instructions on [General Layout](layout/index.md).
 
-### Java controller
+## Java controller
 
 1. Create a new Java class
 2. It's name and location should match what you entered in your Struts
@@ -62,3 +62,4 @@ To create a new tab, follow the instructions on [General Layout](layout/index.md
 * @author Kim Rutherford
 */
 ```
+

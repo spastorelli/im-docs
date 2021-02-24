@@ -29,7 +29,7 @@ When parsing the Homologene data file, the ID resolver replaces the symbol "Pax6
 | ZfinIdentifiersResolverFactory | zebrafish ids | [http://zfin.org/downloads/identifiersForIntermine.txt](http://zfin.org/downloads/identifiersForIntermine.txt) |
 | MgiIdentifiersResolverFactory | mouse ids | [ftp://ftp.informatics.jax.org/pub/reports/MRK\_List2.rpt](ftp://ftp.informatics.jax.org/pub/reports/MRK_List2.rpt) |
 | RgdIdentifiersResolverFactory | rat ids | [ftp://rgd.mcw.edu/pub/data\_release/GENES\_RAT.txt](ftp://rgd.mcw.edu/pub/data_release/GENES_RAT.txt) |
-| HgncIdResolverFactory | HGNC human gene ids | Uses the biomart service at http://www.genenames.org |
+| HgncIdResolverFactory | HGNC human gene ids | Uses the biomart service at [http://www.genenames.org](http://www.genenames.org) |
 | EnsemblIdResolverFactory | Ensembl id | customised |
 | HumanIdResolverFactory | human ids | customised |
 
@@ -266,3 +266,4 @@ public static IdResolver getHumanIdResolver(boolean failOnError) {
 ## Future Plans
 
 * generalized resolver factory which will read a configuration file to be aware of identifier information by column. e.g. type=tab, column.0=mainId, etc.
+

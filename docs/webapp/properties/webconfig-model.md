@@ -81,3 +81,4 @@ At the bottom of the config file are the configuration entries for widgets. Plea
                                  publications.journal, publications.year, publications.pubMedId"
                            externalLink="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;db=PubMed&amp;dopt=Abstract&amp;list_uids="/>
 ```
+

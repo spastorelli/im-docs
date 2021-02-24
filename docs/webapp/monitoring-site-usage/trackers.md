@@ -41,3 +41,4 @@ Each section contains:
 Furthermore, in the ''Template usage'' section, there is a pie diagram showing the first 9 most popular templates and their number of executions in the time range selected: last 2 weeks, last month, last 3 months, last year.
 
 Under the label 'Other' the number of executions of templates from 10th to 15th position are shown.
+

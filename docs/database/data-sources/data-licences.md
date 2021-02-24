@@ -111,3 +111,4 @@ This will update the data set licence field for you.
 We discovered that only a minority of data sets have a licence: of the 26 core data set types that InterMine supports, only 9 have a data set licence, although 14 had some text about fair use.
 
 Please see our [blog posts](https://intermineorg.wordpress.com/2019/01/03/being-fair-data-licences-in-intermine/) for more details.
+

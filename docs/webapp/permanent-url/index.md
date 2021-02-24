@@ -14,7 +14,7 @@ The [class\_keys.properties](../properties/class-keys.md) file specifies the key
 
 The format is:
 
-\# class\_keys.properties 
+\# class\_keys.properties
 
 &lt;CLASSNAME&gt;\_URI&lt;FIELDNAME&gt;
 
@@ -29,3 +29,4 @@ For example:
 No need to specify the keys for the classes defined in the core model \(e.g. protein, organism, publication...\).
 
 See [Class keys](../properties/class-keys.md) for details about this file.
+

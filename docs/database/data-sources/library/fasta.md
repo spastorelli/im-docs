@@ -38,3 +38,4 @@ Project XML example
 | sequenceType | class name | type of sequence to be loaded |
 | loaderClassName | name of Java file that will process the fasta files | only use if you have created a custom fasta loader |
 | licence | URL pointing to standard data licence for data | updates DataSet.licence with value |
+

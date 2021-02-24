@@ -71,8 +71,6 @@ Graph widgets display datasets in graphical format.
 
 ![An example chart widget of BDGP Expression Patterns in FlyMine.](../../../.gitbook/assets/chart.png)
 
-
-
 | attribute | purpose | example |
 | :--- | :--- | :--- |
 | id | unique id used by JavaScript only. Spaces not allowed. | `unique_id` |
@@ -131,7 +129,7 @@ Enrichment widgets calculate p-values representing the probability annotation oc
 | `enrich` | Field to be enriched, displayed in the widget in the first column \[6\]. | `goAnnotation.ontologyTerm.parents.name` |
 | `views` | attributes paths displayed when the user clicks on _View results_ button \[6\]. | `symbol,organism.name` |
 
-> \[6\]  \(1, 2\) You have to specify only one field. Specify the subclass using the syntax path\[subclass type\].
+> \[6\] \(1, 2\) You have to specify only one field. Specify the subclass using the syntax path\[subclass type\].
 
 {% hint style="warning" %}
 You can specify **only one** class in `typeClass`. If you need another type, you have to define a new widget.
@@ -160,8 +158,7 @@ The following are optional attributes:
 > | :--- | :--- |
 >
 >
-> | \[9\] | Case sensitive. For the values we can use: static values or the selected filter value using the syntax: `path contraint = [filter identifier]`. Only the value contained in the list. |
-> | :--- | :--- |
+> \| \[9\] \| Case sensitive. For the values we can use: static values or the selected filter value using the syntax: `path contraint = [filter identifier]`. Only the value contained in the list. \| \| :--- \| :--- \|
 
 #### Examples
 
@@ -280,3 +277,4 @@ The following describes how to embed widgets not in a mine context.
    > ```
 
 8. You will have noticed that the widgets either pickup a style \(CSS\) from your HTML page, or they appear unstyled. To style them, you can use a variant of Twitter Bootstrap.
+

@@ -124,7 +124,7 @@ _Should I use it?_ Yes, only if you use JBrowse and you want your JBrowse web-se
 
 ### summarise-objectstore
 
-Counts of the number of objects of each class and for class fields that have a small number of value, a list of those values. See  [ObjectStore Summary](objectstore-summary-properties.md) for more information.
+Counts of the number of objects of each class and for class fields that have a small number of value, a list of those values. See [ObjectStore Summary](objectstore-summary-properties.md) for more information.
 
 _Should I use it?_ - Always. Run after `create-attribute-indexes` to speed this step up.
 

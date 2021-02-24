@@ -1,4 +1,4 @@
-# Search Engines
+# Search engines
 
 This document discusses the relationship between your InterMine-based website and search engines.
 
@@ -76,3 +76,4 @@ mymine.noFollow = true
 ## Sitemaps
 
 Search engines often have difficulty indexing dynamic websites. The easiest solution for this is provide a sitemap that indicates which pages should be indexed.
+

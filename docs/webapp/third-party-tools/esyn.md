@@ -31,3 +31,4 @@ Add the following entry to your `webconfig-model.xml` file:
    ```markup
    <definition name="esynListDisplayer.tile" path="/model/esynListDisplayer.jsp" controllerUrl="/initEsynListDisplayer.do"/>
    ```
+

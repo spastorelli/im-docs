@@ -139,3 +139,4 @@ Example command line:
 ```perl
 ./intermine_items_example.pl \"FlyMine\" 5833 flymine/dbmodel/resources/main/genomic_model.xml
 ```
+

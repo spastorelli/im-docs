@@ -496,3 +496,4 @@ security.keystore.alias.http://b.com = ALIAS_B
 
 * `flymine/webapp/resources/web.properties` - used by a mine. Properties set here will be available to only that specific mine. Can create mine-specific properties or overwrite properties in the above two files.
 * `$HOME/.intermine/flymine.properties` - used by a mine. Properties set here will be available only to that specific mine, and will override all other properties. Put sensitive values here that should not be committed to version control.
+
